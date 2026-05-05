@@ -230,157 +230,13 @@
                 <p class="text-gray-400 max-w-2xl mx-auto">Pilih produk sesuai kebutuhan Anda. Kualitas terjamin, langsung bisa digunakan.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                
-                <!-- Product: Unblock IMEI -->
-                <div class="glass-card rounded-3xl p-1 relative overflow-hidden group">
-                    <div class="absolute inset-0 bg-gradient-to-b from-cyan-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <div class="bg-gray-900/80 rounded-[23px] h-full p-8 relative z-10 flex flex-col">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-16 h-16 rounded-2xl bg-cyan-500/20 flex items-center justify-center text-cyan-400 text-3xl shadow-[0_0_15px_rgba(6,182,212,0.3)]">
-                                <i class="fa-solid fa-tower-cell"></i>
-                            </div>
-                            <span class="px-3 py-1 bg-red-500/20 text-red-400 text-xs font-bold rounded-full border border-red-500/30">BEST SELLER</span>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-2">Unblock IMEI 3 Bulan</h3>
-                        <p class="text-gray-400 text-sm mb-6">Solusi sinyal hilang untuk iPhone/Android Ex-Inter.</p>
-                        
-                        <div class="mb-6">
-                            <span class="text-3xl font-extrabold text-white">Rp 100.000</span>
-                            <span class="text-gray-500 text-sm">/3 bulan</span>
-                        </div>
-                        
-                        <ul class="space-y-3 mb-8 flex-1">
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-cyan-400 mt-1 mr-3"></i> Support All Operator (Tsel, XL, Indosat, dll)
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-cyan-400 mt-1 mr-3"></i> Proses Cepat (1-24 Jam max)
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-cyan-400 mt-1 mr-3"></i> Sinyal Stabil & Permanen 3 Bulan
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-cyan-400 mt-1 mr-3"></i> Garansi Re-block Penuh 90 Hari
-                            </li>
-                        </ul>
-                        
-                        <a href="https://wa.me/6281234567890?text=Halo%20Min,%20saya%20mau%20order%20jasa%20Unblock%20IMEI%203%20Bulan." target="_blank" class="w-full py-4 rounded-xl bg-cyan-500/10 border border-cyan-500/50 text-cyan-400 font-semibold text-center hover:bg-cyan-500 hover:text-white transition-all duration-300">
-                            Pesan Sekarang
-                        </a>
-                    </div>
+            <!-- Product Container (Dynamically Populated via API) -->
+            <div id="product-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skeleton/Loading state -->
+                <div class="col-span-full flex flex-col items-center justify-center py-16">
+                    <i class="fa-solid fa-circle-notch fa-spin text-4xl text-ethereal-500 mb-4"></i>
+                    <p class="text-gray-400 mt-4">Memuat katalog produk...</p>
                 </div>
-
-                <!-- Product: Netflix -->
-                <div class="glass-card rounded-3xl p-1 relative overflow-hidden group">
-                    <div class="absolute inset-0 bg-gradient-to-b from-red-600/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <div class="bg-gray-900/80 rounded-[23px] h-full p-8 relative z-10 flex flex-col">
-                        <div class="w-16 h-16 rounded-2xl bg-red-600/20 flex items-center justify-center text-red-500 text-3xl mb-6 shadow-[0_0_15px_rgba(220,38,38,0.3)]">
-                            <i class="fa-brands fa-neos"></i>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-2">Netflix Premium</h3>
-                        <p class="text-gray-400 text-sm mb-6">Nonton film & series favorit kualitas tertinggi tanpa batas.</p>
-                        
-                        <div class="mb-6">
-                            <span class="text-sm text-gray-500 block mb-1">Mulai dari</span>
-                            <span class="text-3xl font-extrabold text-white">Rp 25.000</span>
-                            <span class="text-gray-500 text-sm">/bulan</span>
-                        </div>
-                        
-                        <ul class="space-y-3 mb-8 flex-1">
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-red-500 mt-1 mr-3"></i> Resolusi 4K Ultra HD
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-red-500 mt-1 mr-3"></i> Pilihan Sharing & Private Profile
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-red-500 mt-1 mr-3"></i> Anti Screen Limit (Untuk Private)
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-red-500 mt-1 mr-3"></i> Legal 100% & Garansi Full
-                            </li>
-                        </ul>
-                        
-                        <a href="https://wa.me/6281234567890?text=Halo%20Min,%20saya%20mau%20order%20Netflix%20Premium." target="_blank" class="w-full py-4 rounded-xl bg-red-500/10 border border-red-500/50 text-red-400 font-semibold text-center hover:bg-red-600 hover:border-red-600 hover:text-white transition-all duration-300">
-                            Pesan Sekarang
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Product: Vidio -->
-                <div class="glass-card rounded-3xl p-1 relative overflow-hidden group">
-                    <div class="absolute inset-0 bg-gradient-to-b from-blue-600/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <div class="bg-gray-900/80 rounded-[23px] h-full p-8 relative z-10 flex flex-col">
-                        <div class="w-16 h-16 rounded-2xl bg-blue-600/20 flex items-center justify-center text-blue-500 text-3xl mb-6 shadow-[0_0_15px_rgba(37,99,235,0.3)]">
-                            <i class="fa-solid fa-play"></i>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-2">Vidio Premier</h3>
-                        <p class="text-gray-400 text-sm mb-6">Streaming olahraga terlengkap & series original Indonesia.</p>
-                        
-                        <div class="mb-6">
-                            <span class="text-sm text-gray-500 block mb-1">Mulai dari</span>
-                            <span class="text-3xl font-extrabold text-white">Rp 20.000</span>
-                            <span class="text-gray-500 text-sm">/bulan</span>
-                        </div>
-                        
-                        <ul class="space-y-3 mb-8 flex-1">
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-blue-500 mt-1 mr-3"></i> Platinum / Diamond (EPL) Available
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-blue-500 mt-1 mr-3"></i> Kualitas HD & Bebas Iklan
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-blue-500 mt-1 mr-3"></i> Bebas Nonton di HP/TV/PC
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-blue-500 mt-1 mr-3"></i> Garansi Full 1 Bulan
-                            </li>
-                        </ul>
-                        
-                        <a href="https://wa.me/6281234567890?text=Halo%20Min,%20saya%20mau%20order%20Vidio%20Premier." target="_blank" class="w-full py-4 rounded-xl bg-blue-500/10 border border-blue-500/50 text-blue-400 font-semibold text-center hover:bg-blue-600 hover:border-blue-600 hover:text-white transition-all duration-300">
-                            Pesan Sekarang
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Product: Spotify (Optional 4th item, centered if in 3 col grid using col-span techniques or just letting it flow) -->
-                <div class="glass-card rounded-3xl p-1 relative overflow-hidden group md:col-span-2 lg:col-span-1 lg:col-start-2">
-                    <div class="absolute inset-0 bg-gradient-to-b from-green-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <div class="bg-gray-900/80 rounded-[23px] h-full p-8 relative z-10 flex flex-col">
-                        <div class="w-16 h-16 rounded-2xl bg-green-500/20 flex items-center justify-center text-green-400 text-3xl mb-6 shadow-[0_0_15px_rgba(74,222,128,0.3)]">
-                            <i class="fa-brands fa-spotify"></i>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-2">Spotify Premium</h3>
-                        <p class="text-gray-400 text-sm mb-6">Dengarkan musik tanpa batas dan tanpa jeda iklan.</p>
-                        
-                        <div class="mb-6">
-                            <span class="text-3xl font-extrabold text-white">Rp 15.000</span>
-                            <span class="text-gray-500 text-sm">/bulan</span>
-                        </div>
-                        
-                        <ul class="space-y-3 mb-8 flex-1">
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-green-400 mt-1 mr-3"></i> Akun Individu (Bukan Famplan Abal-abal)
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-green-400 mt-1 mr-3"></i> Bebas Iklan & Bisa Skip Sepuasnya
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-green-400 mt-1 mr-3"></i> Download untuk Mode Offline
-                            </li>
-                            <li class="flex items-start text-sm text-gray-300">
-                                <i class="fa-solid fa-circle-check text-green-400 mt-1 mr-3"></i> Perpanjang Pakai Akun Lama Bisa
-                            </li>
-                        </ul>
-                        
-                        <a href="https://wa.me/6281234567890?text=Halo%20Min,%20saya%20mau%20order%20Spotify%20Premium." target="_blank" class="w-full py-4 rounded-xl bg-green-500/10 border border-green-500/50 text-green-400 font-semibold text-center hover:bg-green-500 hover:border-green-500 hover:text-white transition-all duration-300">
-                            Pesan Sekarang
-                        </a>
-                    </div>
-                </div>
-
             </div>
             
             <div class="mt-16 text-center">
@@ -559,6 +415,120 @@
 
     <!-- Scripts -->
     <script>
+        // Fetch Data from Google Apps Script API
+        async function fetchProducts() {
+            const container = document.getElementById('product-container');
+            const apiUrl = 'https://script.google.com/macros/s/AKfycbyIihqah2gvYU4TSWKcFuwYkNpZawN5yC06wgdxkkT9msj0AL7QSE1IMsjsCLpjAUtF/exec';
+            
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                
+                // Menyesuaikan jika response dibungkus dalam properti 'data' atau array langsung
+                const items = Array.isArray(data) ? data : (data.data || []);
+                
+                container.innerHTML = ''; // Bersihkan skeleton loading
+
+                if (items.length === 0) {
+                    container.innerHTML = '<div class="col-span-full text-center text-gray-400 py-10">Produk belum tersedia saat ini.</div>';
+                    return;
+                }
+
+                items.forEach(item => {
+                    // Ekstraksi data dengan fallback huruf besar/kecil (fleksibilitas kolom Google Sheets)
+                    const produk = item.produk || item.Produk || item.product || item.Product || '';
+                    const deskripsi = item.deskripsi || item.Deskripsi || item.description || item.Description || '';
+                    const hargaRaw = item.harga || item.Harga || item.price || item.Price || 0;
+                    
+                    // Format harga Rupiah
+                    const hargaFormat = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }).format(hargaRaw);
+                    
+                    // Styling Tema Kartu berdasarkan produk produk
+                    let theme = {
+                        icon: 'fa-solid fa-box',
+                        iconBg: 'bg-ethereal-500/20 text-ethereal-400 shadow-[0_0_15px_rgba(139,92,246,0.3)]',
+                        glow: 'from-ethereal-500/20',
+                        bullet: 'text-ethereal-400',
+                        button: 'bg-ethereal-500/10 border border-ethereal-500/50 text-ethereal-400 hover:bg-ethereal-500 hover:border-ethereal-500 hover:text-white'
+                    };
+
+                    const produkLower = produk.toLowerCase();
+                    if(produkLower.includes('netflix')) {
+                        theme.icon = 'fa-brands fa-neos';
+                        theme.iconBg = 'bg-red-600/20 text-red-500 shadow-[0_0_15px_rgba(220,38,38,0.3)]';
+                        theme.glow = 'from-red-600/20';
+                        theme.bullet = 'text-red-500';
+                        theme.button = 'bg-red-500/10 border border-red-500/50 text-red-400 hover:bg-red-600 hover:border-red-600 hover:text-white';
+                    } else if(produkLower.includes('vidio')) {
+                        theme.icon = 'fa-solid fa-play';
+                        theme.iconBg = 'bg-blue-600/20 text-blue-500 shadow-[0_0_15px_rgba(37,99,235,0.3)]';
+                        theme.glow = 'from-blue-600/20';
+                        theme.bullet = 'text-blue-500';
+                        theme.button = 'bg-blue-500/10 border border-blue-500/50 text-blue-400 hover:bg-blue-600 hover:border-blue-600 hover:text-white';
+                    } else if(produkLower.includes('spotify')) {
+                        theme.icon = 'fa-brands fa-spotify';
+                        theme.iconBg = 'bg-green-500/20 text-green-400 shadow-[0_0_15px_rgba(74,222,128,0.3)]';
+                        theme.glow = 'from-green-500/20';
+                        theme.bullet = 'text-green-400';
+                        theme.button = 'bg-green-500/10 border border-green-500/50 text-green-400 hover:bg-green-500 hover:border-green-500 hover:text-white';
+                    } else if(produkLower.includes('imei') || produkLower.includes('unblock')) {
+                        theme.icon = 'fa-solid fa-tower-cell';
+                        theme.iconBg = 'bg-cyan-500/20 text-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.3)]';
+                        theme.glow = 'from-cyan-500/20';
+                        theme.bullet = 'text-cyan-400';
+                        theme.button = 'bg-cyan-500/10 border border-cyan-500/50 text-cyan-400 hover:bg-cyan-500 hover:border-cyan-500 hover:text-white';
+                    }
+
+                    // Render Deskripsi: ubah newline (Enter di Sheet) menjadi list/bullet points
+                    let descHtml = '';
+                    const lines = deskripsi.split(/\r?\n/).filter(line => line.trim() !== '');
+
+                    if (lines.length > 1) {
+                        descHtml = '<ul class="space-y-3 mb-8 flex-1">';
+                        lines.forEach(line => {
+                            descHtml += `<li class="flex items-start text-sm text-gray-300"><i class="fa-solid fa-circle-check mt-1 mr-3 ${theme.bullet}"></i> ${line.trim()}</li>`;
+                        });
+                        descHtml += '</ul>';
+                    } else {
+                        descHtml = `<p class="text-gray-400 text-sm mb-8 flex-1">${deskripsi}</p>`;
+                    }
+
+                    // Tautan WhatsApp dinamis dengan produk produk
+                    const waLink = `https://wa.me/6281234567890?text=Halo%20Min,%20saya%20mau%20order%20${encodeURIComponent(produk)}.`;
+
+                    // Generate HTML Kartu
+                    const card = `
+                        <div class="glass-card rounded-3xl p-1 relative overflow-hidden group flex flex-col">
+                            <div class="absolute inset-0 bg-gradient-to-b ${theme.glow} to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            <div class="bg-gray-900/80 rounded-[23px] h-full p-8 relative z-10 flex flex-col flex-1">
+                                <div class="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl mb-6 ${theme.iconBg}">
+                                    <i class="${theme.icon}"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-white mb-4">${produk}</h3>
+                                
+                                ${descHtml}
+                                
+                                <div class="mb-6 mt-auto">
+                                    <span class="text-3xl font-extrabold text-white">${hargaFormat}</span>
+                                </div>
+                                
+                                <a href="${waLink}" target="_blank" class="w-full py-4 rounded-xl font-semibold text-center transition-all duration-300 ${theme.button}">
+                                    Pesan Sekarang
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                    container.innerHTML += card;
+                });
+            } catch (error) {
+                console.error('Error memuat data:', error);
+                container.innerHTML = '<div class="col-span-full text-center py-10"><p class="text-red-400 mb-4">Gagal memuat produk dari database.</p><button onclick="fetchProducts()" class="px-6 py-2 bg-gray-800 rounded-lg text-sm hover:bg-gray-700 transition-colors">Coba Lagi</button></div>';
+            }
+        }
+
+        // Panggil fetchProducts saat halaman selesai dimuat
+        document.addEventListener('DOMContentLoaded', fetchProducts);
+
         // Mobile Menu Toggle
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
